@@ -14,7 +14,7 @@
         }
 
         .main-header{
-            margin: 0;
+            margin: 0 0 1rem;
             padding: 0;
             background-color: #161A30;
             color: #F0ECE5;
@@ -49,7 +49,10 @@
         </nav>
     </header>
     <main>
-        
+        <form action="/users" method="post">
+            <input type="text" name="username">
+            <button type="submit">Add Your Username</button>
+        </form>
     </main>
 </body>
 </html>
